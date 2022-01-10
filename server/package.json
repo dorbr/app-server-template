@@ -1,6 +1,6 @@
 {
   "name": "@dorbr/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -40,23 +40,5 @@
   },
   "bin": {
     "create-server": "bin/bin.js"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "ts-jest"
-    },
-    "globals": {
-      "ts-jest": {
-        "tsConfigFile": "tsconfig.json"
-      }
-    },
-    "testMatch": [
-      "**/__tests__/*.+(ts|tsx|js)"
-    ]
   }
 }
